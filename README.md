@@ -15,3 +15,5 @@ List all available features that you can use from Deck of Cards. For example, on
   get a partial deck
 
 What is the API for getting a brand new deck that also includes two jokers?
+  https://deckofcardsapi.com/api/deck/new/
+  
