@@ -1,6 +1,7 @@
 # lab09-group-5
 lab09-group-5 created by GitHub Classroom
 brodie fogarty - bfog012
+ricky xu - xxu281
 
 GET is one of the HTTP request methods. What is a GET method? Give an example of how you can use GET with the Deck Of Cards API.
   
