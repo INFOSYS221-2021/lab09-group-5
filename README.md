@@ -26,11 +26,29 @@ How many cards are drawn from the deck? What are the cards?
   
 How do you retrieve deck_id from the response? Write your code using JavaScript.
 
+  async function createDeck() {
+  // TODO 1: use the appropriate API to shuffle 
+  // a new deck of card
+  let response = await fetch('https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1');
+
+  if (response.status === 200) {
+    let data = await response.json();
+
+    // TODO 2: get the id of the deck from data
+    deckID = data.deck_id;
+    return deckID;
+  }
+}
+
   
   
 How do you print information about each card? Write your code using JavaScript.
-
-
+  
+  function getValueFromCard(cardInfo) {
+  // TODO 4: find the value and suit of the card
+  let cardValue = cardInfo.cards[0].value;
+  let cardSuit = cardInfo.cards[0].suit;
+    
 Read and understand the JavaScript code snippet from previous step. Complete all six TODOs. Once you have completed the code, you will be able to run the game and see the cards on screen when you click the Hit Me! butto
 
 // Initialise the values at the start of the game
