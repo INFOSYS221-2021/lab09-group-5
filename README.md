@@ -16,4 +16,5 @@ List all available features that you can use from Deck of Cards. For example, on
 
 What is the API for getting a brand new deck that also includes two jokers?
   https://deckofcardsapi.com/api/deck/new/
+  Add jokers_enabled=true
   
